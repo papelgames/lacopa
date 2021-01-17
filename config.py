@@ -1,11 +1,11 @@
 import os
 
 UPLOAD_FOLDER = os.path.abspath("./uploads/")
-DB_URI = "TBD"
+DB_URI = "vacio"
 
 class Config(object):
     DEBUG = False
-    SECRET_KEY = '?\xbf,\xb4\x8d\xa3"<\x9c\xb0@\x0f5\xab,w\xee\x8d$0\x13\x8b83'
+    SECRET_KEY = 'h\x1c\x9b\xbe\x16\n\xaaJ\xcaK?{\xc9e\xfdB\xa3'
     SQLALCHEMY_DATABASE_URI = "sqlite:///:memory:"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOAD_FOLDER = UPLOAD_FOLDER
